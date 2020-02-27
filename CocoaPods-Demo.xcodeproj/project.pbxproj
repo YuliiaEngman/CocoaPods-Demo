@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		0FC741BE2408147200246223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741BD2408147200246223 /* AppDelegate.swift */; };
 		0FC741C02408147200246223 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741BF2408147200246223 /* SceneDelegate.swift */; };
-		0FC741C22408147200246223 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741C12408147200246223 /* ViewController.swift */; };
-		0FC741C52408147200246223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC741C32408147200246223 /* Main.storyboard */; };
+		0FC741C22408147200246223 /* CocktailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741C12408147200246223 /* CocktailViewController.swift */; };
 		0FC741C72408147800246223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FC741C62408147800246223 /* Assets.xcassets */; };
 		0FC741CA2408147800246223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC741C82408147800246223 /* LaunchScreen.storyboard */; };
 		0FC741D52408147900246223 /* CocoaPods_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741D42408147900246223 /* CocoaPods_DemoTests.swift */; };
 		0FC741E024081C5D00246223 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741DF24081C5D00246223 /* APIClient.swift */; };
 		0FC741E22408204500246223 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741E12408204500246223 /* Cocktail.swift */; };
+		0FC741E42408261800246223 /* CocktailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC741E32408261800246223 /* CocktailView.swift */; };
 		1DDAA3F078A3FA37F97567FD /* Pods_CocoaPods_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FC6379034E5EFABC9B36186 /* Pods_CocoaPods_DemoTests.framework */; };
 		20CA9906224C3146DFF6BCB0 /* Pods_CocoaPods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79ADCE6D67C261D984D22900 /* Pods_CocoaPods_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -35,8 +35,7 @@
 		0FC741BA2408147200246223 /* CocoaPods-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CocoaPods-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC741BD2408147200246223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FC741BF2408147200246223 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FC741C12408147200246223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FC741C42408147200246223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FC741C12408147200246223 /* CocktailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailViewController.swift; sourceTree = "<group>"; };
 		0FC741C62408147800246223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC741C92408147800246223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FC741CB2408147800246223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		0FC741D62408147900246223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FC741DF24081C5D00246223 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		0FC741E12408204500246223 /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+		0FC741E32408261800246223 /* CocktailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailView.swift; sourceTree = "<group>"; };
 		2F9076A96ECAA9AD5D691DA7 /* Pods-CocoaPods-DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPods-DemoTests.release.xcconfig"; path = "Target Support Files/Pods-CocoaPods-DemoTests/Pods-CocoaPods-DemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		4EB04666000C499433B5F83F /* Pods-CocoaPods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPods-Demo/Pods-CocoaPods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		611319C606EA5C0855046A75 /* Pods-CocoaPods-DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPods-DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CocoaPods-DemoTests/Pods-CocoaPods-DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +99,8 @@
 				0FC741BF2408147200246223 /* SceneDelegate.swift */,
 				0FC741E12408204500246223 /* Cocktail.swift */,
 				0FC741DF24081C5D00246223 /* APIClient.swift */,
-				0FC741C12408147200246223 /* ViewController.swift */,
-				0FC741C32408147200246223 /* Main.storyboard */,
+				0FC741C12408147200246223 /* CocktailViewController.swift */,
+				0FC741E32408261800246223 /* CocktailView.swift */,
 				0FC741C62408147800246223 /* Assets.xcassets */,
 				0FC741C82408147800246223 /* LaunchScreen.storyboard */,
 				0FC741CB2408147800246223 /* Info.plist */,
@@ -223,7 +223,6 @@
 			files = (
 				0FC741CA2408147800246223 /* LaunchScreen.storyboard in Resources */,
 				0FC741C72408147800246223 /* Assets.xcassets in Resources */,
-				0FC741C52408147200246223 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +304,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FC741C22408147200246223 /* ViewController.swift in Sources */,
+				0FC741E42408261800246223 /* CocktailView.swift in Sources */,
+				0FC741C22408147200246223 /* CocktailViewController.swift in Sources */,
 				0FC741BE2408147200246223 /* AppDelegate.swift in Sources */,
 				0FC741C02408147200246223 /* SceneDelegate.swift in Sources */,
 				0FC741E22408204500246223 /* Cocktail.swift in Sources */,
@@ -332,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0FC741C32408147200246223 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0FC741C42408147200246223 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0FC741C82408147800246223 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
